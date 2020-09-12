@@ -1,12 +1,22 @@
 class Cat {
   constructor(name, sex) {
-    let speak = `${name} says meow!`
+    this.name = name;
+    this.sex =  sex;
+  }
+
+  speak() {
+    return `${this.name} says meow!`
   }
 }
  
 class Dog {
   constructor(name, sex) {
-    let speak = `${name} says woof!`
+    this.name = name;
+    this.sex =  sex;
+  }
+
+  speak() {
+    return `${this.name} says meow!`
   }
 }
  
